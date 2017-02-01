@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C51A6E65FB95109ABAB7A67 /* Pods_codepath_flickz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70948D54438410AF199E118E /* Pods_codepath_flickz.framework */; };
+		7CF74DFF1E4171D500A62BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF74DFE1E4171D500A62BEF /* AppDelegate.swift */; };
+		7CF74E041E4171D500A62BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF74E021E4171D500A62BEF /* Main.storyboard */; };
+		7CF74E061E4171D600A62BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF74E051E4171D600A62BEF /* Assets.xcassets */; };
+		7CF74E091E4171D600A62BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF74E071E4171D600A62BEF /* LaunchScreen.storyboard */; };
+		7CF74E2D1E4172DD00A62BEF /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF74E2C1E4172DD00A62BEF /* MoviesViewController.swift */; };
+		7CF74E301E417E7A00A62BEF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF74E2F1E417E7A00A62BEF /* MovieCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CF74E101E4171D600A62BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF74DF31E4171D500A62BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF74DFA1E4171D500A62BEF;
+			remoteInfo = "codepath-flickz";
+		};
+		7CF74E1B1E4171D600A62BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CF74DF31E4171D500A62BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CF74DFA1E4171D500A62BEF;
+			remoteInfo = "codepath-flickz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70948D54438410AF199E118E /* Pods_codepath_flickz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codepath_flickz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF74DFB1E4171D500A62BEF /* codepath-flickz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codepath-flickz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF74DFE1E4171D500A62BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CF74E031E4171D500A62BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CF74E051E4171D600A62BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CF74E081E4171D600A62BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CF74E0A1E4171D600A62BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF74E0F1E4171D600A62BEF /* codepath-flickzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-flickzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF74E1A1E4171D600A62BEF /* codepath-flickzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-flickzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF74E2C1E4172DD00A62BEF /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		7CF74E2F1E417E7A00A62BEF /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		7F3A7F3DB455F97E822CFCBE /* Pods-codepath-flickz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepath-flickz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-codepath-flickz/Pods-codepath-flickz.debug.xcconfig"; sourceTree = "<group>"; };
+		F02D6EFFA7C85173ACB0A3B8 /* Pods-codepath-flickz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepath-flickz.release.xcconfig"; path = "Pods/Target Support Files/Pods-codepath-flickz/Pods-codepath-flickz.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF74DF81E4171D500A62BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C51A6E65FB95109ABAB7A67 /* Pods_codepath_flickz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF74E0C1E4171D600A62BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF74E171E4171D600A62BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370E2537691A5174944B1C57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F3A7F3DB455F97E822CFCBE /* Pods-codepath-flickz.debug.xcconfig */,
+				F02D6EFFA7C85173ACB0A3B8 /* Pods-codepath-flickz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D45BD5403AC431B6B2EA604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70948D54438410AF199E118E /* Pods_codepath_flickz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CF74DF21E4171D500A62BEF = {
+			isa = PBXGroup;
+			children = (
+				7CF74DFD1E4171D500A62BEF /* codepath-flickz */,
+				7CF74DFC1E4171D500A62BEF /* Products */,
+				370E2537691A5174944B1C57 /* Pods */,
+				3D45BD5403AC431B6B2EA604 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CF74DFC1E4171D500A62BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CF74DFB1E4171D500A62BEF /* codepath-flickz.app */,
+				7CF74E0F1E4171D600A62BEF /* codepath-flickzTests.xctest */,
+				7CF74E1A1E4171D600A62BEF /* codepath-flickzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CF74DFD1E4171D500A62BEF /* codepath-flickz */ = {
+			isa = PBXGroup;
+			children = (
+				7CF74E311E417E8300A62BEF /* ViewController */,
+				7CF74E2E1E417E4700A62BEF /* Views */,
+				7CF74DFE1E4171D500A62BEF /* AppDelegate.swift */,
+				7CF74E021E4171D500A62BEF /* Main.storyboard */,
+				7CF74E051E4171D600A62BEF /* Assets.xcassets */,
+				7CF74E071E4171D600A62BEF /* LaunchScreen.storyboard */,
+				7CF74E0A1E4171D600A62BEF /* Info.plist */,
+			);
+			path = "codepath-flickz";
+			sourceTree = "<group>";
+		};
+		7CF74E2E1E417E4700A62BEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CF74E2F1E417E7A00A62BEF /* MovieCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7CF74E311E417E8300A62BEF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7CF74E2C1E4172DD00A62BEF /* MoviesViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CF74DFA1E4171D500A62BEF /* codepath-flickz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF74E231E4171D600A62BEF /* Build configuration list for PBXNativeTarget "codepath-flickz" */;
+			buildPhases = (
+				36BDC41DA32B59D8945960D0 /* [CP] Check Pods Manifest.lock */,
+				7CF74DF71E4171D500A62BEF /* Sources */,
+				7CF74DF81E4171D500A62BEF /* Frameworks */,
+				7CF74DF91E4171D500A62BEF /* Resources */,
+				4EE43DD5924EF248C4523320 /* [CP] Embed Pods Frameworks */,
+				CCDCBDA1AEDBF1DDD038CD6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "codepath-flickz";
+			productName = "codepath-flickz";
+			productReference = 7CF74DFB1E4171D500A62BEF /* codepath-flickz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CF74E0E1E4171D600A62BEF /* codepath-flickzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF74E261E4171D600A62BEF /* Build configuration list for PBXNativeTarget "codepath-flickzTests" */;
+			buildPhases = (
+				7CF74E0B1E4171D600A62BEF /* Sources */,
+				7CF74E0C1E4171D600A62BEF /* Frameworks */,
+				7CF74E0D1E4171D600A62BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF74E111E4171D600A62BEF /* PBXTargetDependency */,
+			);
+			name = "codepath-flickzTests";
+			productName = "codepath-flickzTests";
+			productReference = 7CF74E0F1E4171D600A62BEF /* codepath-flickzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CF74E191E4171D600A62BEF /* codepath-flickzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF74E291E4171D600A62BEF /* Build configuration list for PBXNativeTarget "codepath-flickzUITests" */;
+			buildPhases = (
+				7CF74E161E4171D600A62BEF /* Sources */,
+				7CF74E171E4171D600A62BEF /* Frameworks */,
+				7CF74E181E4171D600A62BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CF74E1C1E4171D600A62BEF /* PBXTargetDependency */,
+			);
+			name = "codepath-flickzUITests";
+			productName = "codepath-flickzUITests";
+			productReference = 7CF74E1A1E4171D600A62BEF /* codepath-flickzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CF74DF31E4171D500A62BEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kyle Leung";
+				TargetAttributes = {
+					7CF74DFA1E4171D500A62BEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7CF74E0E1E4171D600A62BEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CF74DFA1E4171D500A62BEF;
+					};
+					7CF74E191E4171D600A62BEF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CF74DFA1E4171D500A62BEF;
+					};
+				};
+			};
+			buildConfigurationList = 7CF74DF61E4171D500A62BEF /* Build configuration list for PBXProject "codepath-flickz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CF74DF21E4171D500A62BEF;
+			productRefGroup = 7CF74DFC1E4171D500A62BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF74DFA1E4171D500A62BEF /* codepath-flickz */,
+				7CF74E0E1E4171D600A62BEF /* codepath-flickzTests */,
+				7CF74E191E4171D600A62BEF /* codepath-flickzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF74DF91E4171D500A62BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF74E091E4171D600A62BEF /* LaunchScreen.storyboard in Resources */,
+				7CF74E061E4171D600A62BEF /* Assets.xcassets in Resources */,
+				7CF74E041E4171D500A62BEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF74E0D1E4171D600A62BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF74E181E4171D600A62BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BDC41DA32B59D8945960D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EE43DD5924EF248C4523320 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codepath-flickz/Pods-codepath-flickz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCDCBDA1AEDBF1DDD038CD6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codepath-flickz/Pods-codepath-flickz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF74DF71E4171D500A62BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF74DFF1E4171D500A62BEF /* AppDelegate.swift in Sources */,
+				7CF74E2D1E4172DD00A62BEF /* MoviesViewController.swift in Sources */,
+				7CF74E301E417E7A00A62BEF /* MovieCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF74E0B1E4171D600A62BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF74E161E4171D600A62BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CF74E111E4171D600A62BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF74DFA1E4171D500A62BEF /* codepath-flickz */;
+			targetProxy = 7CF74E101E4171D600A62BEF /* PBXContainerItemProxy */;
+		};
+		7CF74E1C1E4171D600A62BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CF74DFA1E4171D500A62BEF /* codepath-flickz */;
+			targetProxy = 7CF74E1B1E4171D600A62BEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CF74E021E4171D500A62BEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF74E031E4171D500A62BEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CF74E071E4171D600A62BEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF74E081E4171D600A62BEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CF74E211E4171D600A62BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CF74E221E4171D600A62BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CF74E241E4171D600A62BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3A7F3DB455F97E822CFCBE /* Pods-codepath-flickz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "codepath-flickz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.codepath-flickz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7CF74E251E4171D600A62BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02D6EFFA7C85173ACB0A3B8 /* Pods-codepath-flickz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "codepath-flickz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.codepath-flickz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7CF74E271E4171D600A62BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "codepath-flickzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.codepath-flickzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/codepath-flickz.app/codepath-flickz";
+			};
+			name = Debug;
+		};
+		7CF74E281E4171D600A62BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "codepath-flickzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.codepath-flickzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/codepath-flickz.app/codepath-flickz";
+			};
+			name = Release;
+		};
+		7CF74E2A1E4171D600A62BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "codepath-flickzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.codepath-flickzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "codepath-flickz";
+			};
+			name = Debug;
+		};
+		7CF74E2B1E4171D600A62BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "codepath-flickzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mine.codepath-flickzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "codepath-flickz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CF74DF61E4171D500A62BEF /* Build configuration list for PBXProject "codepath-flickz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF74E211E4171D600A62BEF /* Debug */,
+				7CF74E221E4171D600A62BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF74E231E4171D600A62BEF /* Build configuration list for PBXNativeTarget "codepath-flickz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF74E241E4171D600A62BEF /* Debug */,
+				7CF74E251E4171D600A62BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CF74E261E4171D600A62BEF /* Build configuration list for PBXNativeTarget "codepath-flickzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF74E271E4171D600A62BEF /* Debug */,
+				7CF74E281E4171D600A62BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CF74E291E4171D600A62BEF /* Build configuration list for PBXNativeTarget "codepath-flickzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF74E2A1E4171D600A62BEF /* Debug */,
+				7CF74E2B1E4171D600A62BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CF74DF31E4171D500A62BEF /* Project object */;
+}

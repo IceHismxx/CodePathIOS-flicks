@@ -1,0 +1,6 @@
+framework module Pods_codepath_flickz {
+  umbrella header "Pods-codepath-flickz-umbrella.h"
+
+  export *
+  module * { export * }
+}
