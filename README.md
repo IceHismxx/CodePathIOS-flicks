@@ -31,13 +31,13 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/IceHismxx/CodePathIOS-flicks/blob/master/userstories2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/iI2O1nF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I will try harder on the next assignment.  I had no time and had to do midterms.
+I will try harder on the next assignment.  I had no time and had to prepare for midterms.  Maybe i will come back later and reimplement the optional stuff.
 
 ## License
 
