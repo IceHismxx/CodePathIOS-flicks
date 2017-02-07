@@ -2,11 +2,9 @@
 # platform :ios, '9.0'
 
 target 'codepath-flickz' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
   # Pods for codepath-flickz
   pod 'AFNetworking'
-
-
+  pod 'SVProgressHUD', '~> 2.1'
+  pod 'MBProgressHUD'
 end
