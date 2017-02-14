@@ -14,6 +14,7 @@
 		7CF74E091E4171D600A62BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF74E071E4171D600A62BEF /* LaunchScreen.storyboard */; };
 		7CF74E2D1E4172DD00A62BEF /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF74E2C1E4172DD00A62BEF /* MoviesViewController.swift */; };
 		7CF74E301E417E7A00A62BEF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF74E2F1E417E7A00A62BEF /* MovieCell.swift */; };
+		7CFA4E061E4A892A0077C8F2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA4E051E4A892A0077C8F2 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7CF74E1A1E4171D600A62BEF /* codepath-flickzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-flickzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF74E2C1E4172DD00A62BEF /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		7CF74E2F1E417E7A00A62BEF /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		7CFA4E051E4A892A0077C8F2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7F3A7F3DB455F97E822CFCBE /* Pods-codepath-flickz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepath-flickz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-codepath-flickz/Pods-codepath-flickz.debug.xcconfig"; sourceTree = "<group>"; };
 		F02D6EFFA7C85173ACB0A3B8 /* Pods-codepath-flickz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codepath-flickz.release.xcconfig"; path = "Pods/Target Support Files/Pods-codepath-flickz/Pods-codepath-flickz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				7CF74E2C1E4172DD00A62BEF /* MoviesViewController.swift */,
+				7CFA4E051E4A892A0077C8F2 /* DetailViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				7CF74DFF1E4171D500A62BEF /* AppDelegate.swift in Sources */,
 				7CF74E2D1E4172DD00A62BEF /* MoviesViewController.swift in Sources */,
 				7CF74E301E417E7A00A62BEF /* MovieCell.swift in Sources */,
+				7CFA4E061E4A892A0077C8F2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +576,7 @@
 				7CF74E251E4171D600A62BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF74E261E4171D600A62BEF /* Build configuration list for PBXNativeTarget "codepath-flickzTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +585,7 @@
 				7CF74E281E4171D600A62BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CF74E291E4171D600A62BEF /* Build configuration list for PBXNativeTarget "codepath-flickzUITests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +594,7 @@
 				7CF74E2B1E4171D600A62BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
