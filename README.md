@@ -60,7 +60,7 @@ I will try harder on the next assignment.  I had no time and had to prepare for 
 
 **Flickz** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
